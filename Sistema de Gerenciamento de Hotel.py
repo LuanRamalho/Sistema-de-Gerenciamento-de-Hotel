@@ -258,7 +258,7 @@ class Hotel:
         self.lblNationality.grid(row=7, column=0, sticky=W)
         self.cboNationality = ttk.Combobox(LeftFrame, textvariable = Nationality, state = 'readonly',
                                            font=('arial',12,'bold'),width=18)
-        self.cboNationality['value'] = ('','Inglaterra', 'Nigéria', 'Quênia', 'Índia', 'Iran',
+        self.cboNationality['value'] = ('','Inglaterra', 'Nigéria', 'Quênia', 'Índia', 'Irã',
                                        'Marrocos', 'Canadá', 'França', 'Noruega', 'Brasil', 'Suécia',
                                        'Estados Unidos', 'China', 'Japão', 'Rússia', 'Portugal',
                                        'Espanha', 'Alemanha', 'Grécia', 'Itália', 'Finlândia',
@@ -374,7 +374,7 @@ class Hotel:
                                 bg="white", width=67, justify=LEFT)
         self.txtSubTotal.grid(row=4, column=1)
 
-        self.lblTotalCost = Label(RightFrame, font=('arial', 14, 'bold'), text='SubTotal', bd=7,
+        self.lblTotalCost = Label(RightFrame, font=('arial', 14, 'bold'), text='Total', bd=7,
                                  bg="cadet blue", fg="black")
         self.lblTotalCost.grid(row=5, column=0, sticky=W)
         self.txtTotalCost = Entry(RightFrame, font=('arial', 14, 'bold'), textvariable=TotalCost, bd=7,
